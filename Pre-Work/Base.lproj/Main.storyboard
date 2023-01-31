@@ -99,15 +99,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHV-gs-rdL">
-                                <rect key="frame" x="148" y="704" width="97" height="35"/>
+                                <rect key="frame" x="131" y="704" width="131" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Introduce"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Introduce Self"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="5cR-SO-yKe" id="oaQ-kF-dl6"/>
+                        <outlet property="lastNameTextField" destination="VfL-e6-9v0" id="Mq8-fB-bQq"/>
+                        <outlet property="morePetsStepper" destination="Yx7-Uq-ONT" id="bHg-Gq-Mck"/>
+                        <outlet property="morePetsSwitch" destination="GSn-tP-DYA" id="BMQ-Gl-Kya"/>
+                        <outlet property="numberOfPetsLabel" destination="fnL-Ee-fe2" id="dVX-BP-2ww"/>
+                        <outlet property="schoolNameTextField" destination="YoB-eb-HA4" id="OBp-0R-grB"/>
+                        <outlet property="yearSegmentedControl" destination="rvU-Zd-NVm" id="yb3-of-oTJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
