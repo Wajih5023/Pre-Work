@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBAction func introduceSelfClicked(_ sender: UIButton) {
             let year = yearSegmentedControl.titleForSegment(at: yearSegmentedControl.selectedSegmentIndex)
             
-        let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!.lowercased()) year and I own \(numberOfPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets."
+            let introduction = "My name is \(firstNameTextField.text!) \(lastNameTextField.text!) and I attend \(schoolNameTextField.text!). I am currently in my \(year!.lowercased()) year and I own \(numberOfPetsLabel.text!) dogs. It is \(morePetsSwitch.isOn) that I want more pets."
             
             let alertController = UIAlertController(title: "My Introduction", message: introduction, preferredStyle: .alert)
             
