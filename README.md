@@ -6,7 +6,7 @@ This app allows the user to input his or her personal information including firs
 
 ### App Walk-though
 
-<!-- <img src="https://imgur.com/gallery/xopObEy.gif" width=200><br> OR <img src="YOUR_GIF_PATH" width=200><br> -->
+<!-- <img src="my_walkthrough.gif" width=200><br> OR <img src="YOUR_GIF_PATH" width=200><br> -->
 
 ### Required Features
 
