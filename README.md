@@ -1,8 +1,8 @@
-## NAME_OF_YOUR_APP_HERE
+## UT Austin Self-Introduction
 
 ### App Description
 
-`TODO://` Add app description
+`TODO://` This app allows the user to input his or her personal information including first name, last name, school name, current school year, and number of pets. The user is able to click a button in order to display a message showing a possible introduction of his or herself using the inputted values.
 
 ### App Walk-though
 
